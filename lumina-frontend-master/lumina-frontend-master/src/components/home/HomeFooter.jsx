@@ -1,0 +1,76 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import { Logo } from '../Logo';
+import { Twitter, Linkedin, Github, Mail, Heart } from 'lucide-react';
+
+const HomeFooter = () => {
+    const currentYear = new Date().getFullYear();
+
+    const footerLinks = {
+        product: [
+            { label: 'Resume Builder', href: '/generate', isExternal: false }
+        ]
+    };
+
+    return (
+        <footer className="bg-slate-900 pt-0 relative overflow-hidden">
+
+            {/* 1. CTA Section */}
+
+
+            {/* 2. Main Footer Content */}
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-8">
+                <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-16">
+
+                    {/* Brand */}
+                    <div className="flex flex-col items-center md:items-start text-center md:text-left">
+                        <Link to="/" className="flex items-center gap-2 mb-4 group">
+                            <Logo size={32} />
+                            <span className="font-heading font-bold text-2xl text-white tracking-tight">Lumina</span>
+                        </Link>
+                        <p className="text-gray-400 text-sm max-w-xs leading-relaxed">
+                            A simple way to build your resume and organize your job search. Join us to start your next chapter with confidence.
+                        </p>
+                    </div>
+
+                    {/* Navigation */}
+                    <div className="flex flex-wrap justify-center gap-8">
+                        {footerLinks.product.map((link) => (
+                            <Link
+                                key={link.label}
+                                to={link.href}
+                                className="text-gray-400 hover:text-white font-medium transition-colors text-sm"
+                            >
+                                {link.label}
+                            </Link>
+                        ))}
+                        {/* Contact info removed */}
+                    </div>
+
+                    {/* Socials */}
+                    <div className="flex items-center gap-4">
+
+                        <a href="https://www.linkedin.com/in/yashshinde8585/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:bg-blue-700 hover:border-blue-600 hover:text-white transition-all group">
+                            <Linkedin size={18} className="group-hover:scale-110 transition-transform" />
+                        </a>
+                    </div>
+                </div>
+
+                {/* Bottom Bar */}
+                <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                    <p className="text-gray-500 text-xs">
+                        © {currentYear} Lumina. All rights reserved.
+                    </p>
+                    <div className="flex gap-6">
+                    </div>
+                </div>
+            </div>
+
+            {/* Ambient Background Light */}
+            <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-[120px] pointer-events-none"></div>
+            <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-purple-600/5 rounded-full blur-[120px] pointer-events-none"></div>
+        </footer>
+    );
+};
+
+export default HomeFooter;
