@@ -1,84 +1,82 @@
-# Lumina — AI-Powered Resume Builder
+# Lumina - AI Resume Builder
 
-> Build, tailor, and track your job applications — all in one place.
-
-**Lumina** is a modern, full-featured resume platform that helps you create polished resumes with AI assistance, manage multiple resume versions, and track your entire job application journey through a visual Kanban board.
-
----
+Lumina is a React/Vite frontend for building AI-assisted resumes, managing resume versions, and tracking job applications through a visual pipeline.
 
 ## Features
 
-**Resume Builder**
-- AI-powered content generation using the Gemini Pro model
-- Rich text editor with Lexical for fine-grained formatting control
-- Drag-and-drop section reordering via dnd-kit
-- Live preview with export to PDF via react-to-print
-- Import existing resumes from file
+### Resume Builder
 
-**Smart Job Tracker**
-- Kanban-style job board — Saved → Applied → Screening → Aptitude → Technical → Interview → Offer
-- Drag a resume onto a job column to instantly create a linked application
-- Drop a resume directly onto a job card to trigger AI tailoring
-- One-way status enforcement to keep your pipeline clean
-- Confetti celebration on offer stage 🎉
+- AI-powered resume content generation.
+- Rich text editing with Lexical.
+- Drag-and-drop section reordering with dnd-kit.
+- Live resume preview and PDF export.
+- Resume import, upload, download, and saved resume management.
+- Resume-to-job match scoring.
 
-**Analytics Dashboard**
-- Application funnel visualization with Recharts
-- Status history tracking per job card
-- Round scheduling (aptitude, technical, interview) with date picker
-- Stale-while-revalidate data strategy for instant load times
+### Job Tracker
 
-**Auth & Account**
-- Email / password signup and login
-- Google OAuth sign-in via `@react-oauth/google`
-- Protected routes for user and admin roles
-- Persistent board state synced to backend with localStorage fallback
+- Kanban-style application pipeline.
+- Saved, Applied, Screening, Aptitude, Technical, Interview, and Offer stages.
+- Resume linking and AI tailoring workflows.
+- One-way status progression to keep job history consistent.
+- Offer-stage celebration.
 
----
+### Analytics And Reminders
+
+- Application funnel charts with Recharts.
+- Status history per job card.
+- Round scheduling for aptitude, technical, and interview steps.
+- Interview reminders backed by the API email service.
+
+### Auth And Admin
+
+- Email/password signup and login.
+- Google OAuth sign-in through `@react-oauth/google`.
+- Protected routes for normal users and admins.
+- Admin dashboard backed by `/api/admin` endpoints.
+- Board state synced to the backend with local fallback behavior.
 
 ## Tech Stack
 
 | Layer | Technology |
-|---|---|
-| Framework | React 19 + Vite |
-| Language | TypeScript |
-| Styling | Tailwind CSS + Emotion |
-| UI Components | MUI, Lucide React |
-| Rich Text | Lexical Editor |
-| Drag & Drop | dnd-kit |
+| --- | --- |
+| Framework | React 19, Vite |
+| Language | TypeScript and JavaScript |
+| Styling | Tailwind CSS, Emotion |
+| UI | MUI, Lucide React |
+| Rich Text | Lexical |
+| Drag And Drop | dnd-kit |
 | Animations | Framer Motion |
-| HTTP Client | Axios |
-| Routing | React Router DOM v7 |
+| HTTP | Axios |
+| Routing | React Router DOM 7 |
 | Charts | Recharts |
-| Auth | JWT + Google OAuth |
-
----
+| Notifications | Sonner |
+| Auth | JWT, Google OAuth |
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js `>=18`
-- The [Backend API](https://github.com/yashshinde8585/backend-my-resume) running locally on port `5002`
+- Node.js 18 or newer
+- npm
+- The Lumina backend running on `http://localhost:5002`
 
 ### Installation
 
 ```bash
-# Clone the repository
-git clone https://github.com/yashshinde8585/my-resume.git
-cd my-resume
-
-# Install dependencies
 npm install
 ```
 
 ### Environment Variables
 
-Create a `.env` file in the root:
+Create `.env` in this directory:
 
 ```env
-VITE_API_URL=http://localhost:5002
+VITE_API_URL=http://localhost:5002/api
+VITE_GOOGLE_CLIENT_ID=your_google_oauth_client_id
 ```
+
+`VITE_API_URL` should include `/api` because the frontend calls endpoints such as `/auth/login`, `/resumes`, `/reminders`, and `/admin`.
 
 ### Run Locally
 
@@ -86,47 +84,44 @@ VITE_API_URL=http://localhost:5002
 npm run dev
 ```
 
-The app will be available at `http://localhost:5173`.
+The app is available at `http://localhost:5173`.
 
-### Build for Production
+### Build For Production
 
 ```bash
 npm run build
 ```
 
----
+Preview a production build:
+
+```bash
+npm run preview
+```
 
 ## Project Structure
 
-```
+```text
 src/
-├── components/         # Reusable UI components
-│   ├── auth/           # ProtectedRoute, auth guards
-│   ├── dashboard/      # JobBoard, AnalyticsSection, JobDetailsDrawer
-│   ├── layout/         # AppHeader
-│   └── ui/             # Button, ErrorBoundary, etc.
-├── context/            # ResumeContext (global state)
-├── hooks/              # Custom React hooks
-├── pages/              # Route-level page components
-├── services/           # API service layer (authService, resumeService)
-├── types/              # TypeScript type definitions
-├── utils/              # Constants and helper functions
-└── App.jsx             # Router configuration
+|-- components/     # Reusable UI, dashboard, auth, layout components
+|-- context/        # Resume/global state
+|-- hooks/          # Custom React hooks
+|-- lib/            # Axios client and shared library setup
+|-- pages/          # Route-level screens
+|-- services/       # API service layer
+|-- types/          # TypeScript types
+|-- utils/          # Constants and helpers
+`-- App.jsx         # Router configuration
 ```
-
----
 
 ## Scripts
 
 | Command | Description |
-|---|---|
-| `npm run dev` | Start development server |
+| --- | --- |
+| `npm run dev` | Start the Vite development server |
 | `npm run build` | Build for production |
-| `npm run lint` | Lint with ESLint |
-| `npm run preview` | Preview production build |
-
----
+| `npm run lint` | Run ESLint |
+| `npm run preview` | Preview the production build |
 
 ## License
 
-MIT
+See the project license metadata.
