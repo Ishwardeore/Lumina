@@ -71,6 +71,20 @@ GOOGLE_CLIENT_ID=your_google_client_id
 # Gemini AI
 GOOGLE_API_KEY=your_gemini_api_key
 
+# Interview reminder emails via Gmail
+# Use a Google App Password, not your normal Gmail password.
+GMAIL_USER=your-gmail-address@gmail.com
+GMAIL_APP_PASSWORD=your-16-character-app-password
+GMAIL_FROM="Lumina <your-gmail-address@gmail.com>"
+
+# Or use generic SMTP instead:
+# SMTP_HOST=smtp.gmail.com
+# SMTP_PORT=587
+# SMTP_SECURE=false
+# SMTP_USER=your-email@gmail.com
+# SMTP_PASS=your-app-password
+# SMTP_FROM="Lumina <your-email@gmail.com>"
+
 # Cloudinary (optional, for file uploads)
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key

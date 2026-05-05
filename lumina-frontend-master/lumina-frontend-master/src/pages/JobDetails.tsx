@@ -11,6 +11,7 @@ import { JobCard } from '../types';
 import { toast } from 'sonner';
 import { resumeService } from '../services/resumeService';
 import { authService } from '../services/authService';
+import { reminderService } from '../services/reminderService';
 import { TRACKING_COLUMNS, INITIAL_COLUMNS, COLUMN_ORDER } from '../utils/constants';
 import RichTextEditor from '../components/ui/RichTextEditor';
 
@@ -265,21 +266,53 @@ const JobDetailsPage: React.FC = () => {
         setTasks(tasks.filter(t => t.id !== id));
     };
 
-    const handleAddRound = () => {
+    const handleAddRound = async () => {
         if (!newRound.scheduledDate) {
             toast.error('Please select a date for the round');
             return;
         }
+        if (!job) return;
+
+        const scheduledAt = new Date(newRound.scheduledDate);
+        if (Number.isNaN(scheduledAt.getTime())) {
+            toast.error('Please select a valid date and time');
+            return;
+        }
+
         const round = {
             id: Date.now().toString(),
             type: newRound.type,
-            scheduledDate: newRound.scheduledDate,
+            scheduledDate: scheduledAt.toISOString(),
             notes: newRound.notes
         };
-        setUpcomingRounds([...upcomingRounds, round]);
-        setNewRound({ type: 'interview', scheduledDate: '', notes: '' });
-        setShowAddRoundModal(false);
-        toast.success('Round scheduled successfully!');
+
+        try {
+            const response = await reminderService.createReminder({
+                jobId: job.id,
+                company: job.company,
+                role: job.role,
+                roundType: newRound.type,
+                scheduledAt: round.scheduledDate,
+                notes: newRound.notes
+            });
+
+            setUpcomingRounds([...upcomingRounds, round]);
+            setNewRound({ type: 'interview', scheduledDate: '', notes: '' });
+            setShowAddRoundModal(false);
+
+            if (response.emailConfigured) {
+                toast.success('Round scheduled and email reminder created!');
+            } else {
+                toast.warning(response.message || 'Round scheduled, but SMTP email is not configured on the server.');
+            }
+        } catch (error) {
+            console.error('Failed to schedule reminder:', error);
+            const status = (error as any)?.response?.status;
+            const message = status === 404
+                ? 'Reminder route is not active yet. Restart the backend server, then schedule again.'
+                : 'Could not create the email reminder. Please try again.';
+            toast.error(message);
+        }
     };
 
     const deleteRound = (id: string) => {

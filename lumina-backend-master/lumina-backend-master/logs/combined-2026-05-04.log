@@ -1,0 +1,56 @@
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-04 10:38:11"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-04 10:38:11"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-04 10:38:11"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-04 10:38:11"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-04 10:38:11"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-04 10:38:11"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"4bd052cb-c7f5-4e3e-978d-98a1ad74eb1a","service":"resume-generator-api","timestamp":"2026-05-04 10:38:14"}
+{"duration":"88ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:01","url":"/api/auth/login"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 10:40:01","url":"/api/resumes"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:01","url":"/api/auth/board"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:03","url":"/api/auth/board"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:28","url":"/api/auth/board"}
+{"duration":"12ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:28","url":"/api/auth/board"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:28","url":"/api/auth/board"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 10:40:28","url":"/api/resumes"}
+{"duration":"8ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:29","url":"/api/auth/board"}
+{"duration":"12ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:32","url":"/api/auth/board"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:40:34","url":"/api/auth/board"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-04 10:41:00","url":"/api/reminders"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:41:01","url":"/api/auth/board"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"5a5994fb-fa2e-4b20-be8d-29a27ec58310","service":"resume-generator-api","timestamp":"2026-05-04 10:41:14"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:44:44","url":"/api/auth/board"}
+{"duration":"25ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-04 10:45:22","url":"/api/reminders"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 10:45:23","url":"/api/auth/board"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"d7c33c61-8515-4eca-8ac0-7b2fb33ae783","service":"resume-generator-api","timestamp":"2026-05-04 10:46:14"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:00:30","url":"/api/resumes"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:00:30","url":"/api/auth/board"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:00:31","url":"/api/auth/board"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:03:05","url":"/api/auth/board"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:03:17","url":"/api/resumes"}
+{"duration":"19ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:03:30","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:05:27","url":"/api/auth/board"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:05:37","url":"/api/resumes"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:05:37","url":"/api/auth/board"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:05:38","url":"/api/auth/board"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:05:52","url":"/api/resumes"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:06:06","url":"/api/resumes"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:06:06","url":"/api/auth/board"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:06:07","url":"/api/auth/board"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:06:18","url":"/api/resumes"}
+{"duration":"22ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:06:27","url":"/api/auth/board"}
+{"duration":"28ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:06:27","url":"/api/auth/board"}
+{"duration":"8ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:06:27","url":"/api/resumes"}
+{"duration":"8ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:06:28","url":"/api/auth/board"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:06:34","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:06:42","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:06:46","url":"/api/auth/board"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:06:52","url":"/api/resumes"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:07:00","url":"/api/resumes"}
+{"duration":"12ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:07:00","url":"/api/auth/board"}
+{"duration":"7ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:07:01","url":"/api/auth/board"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:07:28","url":"/api/auth/board"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:07:36","url":"/api/resumes"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-04 11:07:47","url":"/api/resumes"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:07:47","url":"/api/auth/board"}
+{"duration":"4ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-04 11:07:48","url":"/api/auth/board"}

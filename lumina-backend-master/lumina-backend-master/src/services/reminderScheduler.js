@@ -1,18 +1,23 @@
 const { Op } = require('sequelize');
 const logger = require('../config/logger');
 const { InterviewReminder } = require('../models');
-const { isEmailConfigured, sendInterviewReminderEmail } = require('./emailService');
+const { getEmailConfigStatus, sendInterviewReminderEmail } = require('./emailService');
 
 let scheduler = null;
 let isRunning = false;
 let hasWarnedAboutEmailConfig = false;
+const reminderLeadTimeMs = 24 * 60 * 60 * 1000;
 
 const processDueReminders = async () => {
     if (isRunning) return;
 
-    if (!isEmailConfigured()) {
+    const emailConfig = getEmailConfigStatus();
+    if (!emailConfig.configured) {
         if (!hasWarnedAboutEmailConfig) {
-            logger.warn('Interview reminder scheduler is paused because SMTP email is not configured.');
+            logger.warn('Interview reminder scheduler is paused because SMTP email is not configured.', {
+                missing: emailConfig.missing,
+                invalid: emailConfig.invalid
+            });
             hasWarnedAboutEmailConfig = true;
         }
         return;
@@ -22,11 +27,14 @@ const processDueReminders = async () => {
     isRunning = true;
 
     try {
+        // Keep scheduledAt as the user's actual round time.
+        // Send when the current time has reached scheduledAt minus the 24-hour reminder lead time.
+        const reminderWindowEnd = new Date(Date.now() + reminderLeadTimeMs);
         const reminders = await InterviewReminder.findAll({
             where: {
                 status: 'pending',
                 scheduledAt: {
-                    [Op.lte]: new Date()
+                    [Op.lte]: reminderWindowEnd
                 }
             },
             limit: 25,

@@ -1,5 +1,5 @@
 const { InterviewReminder, User } = require('../models');
-const { isEmailConfigured } = require('../services/emailService');
+const { getEmailConfigStatus } = require('../services/emailService');
 
 exports.createReminder = async (req, res, next) => {
     try {
@@ -19,6 +19,11 @@ exports.createReminder = async (req, res, next) => {
             return res.status(404).json({ message: 'User not found' });
         }
 
+        const recipientEmail = (req.userData.email || user.email || '').trim();
+        if (!recipientEmail) {
+            return res.status(400).json({ message: 'Logged-in user email is required to create an email reminder' });
+        }
+
         const reminder = await InterviewReminder.create({
             userId: user.id,
             jobId,
@@ -27,15 +32,43 @@ exports.createReminder = async (req, res, next) => {
             roundType,
             scheduledAt: scheduledDate,
             notes,
-            recipientEmail: user.email
+            recipientEmail
         });
+
+        const emailConfig = getEmailConfigStatus();
 
         res.status(201).json({
             reminder,
-            emailConfigured: isEmailConfigured(),
-            message: isEmailConfigured()
+            emailConfigured: emailConfig.configured,
+            missingEmailConfig: emailConfig.missing,
+            invalidEmailConfig: emailConfig.invalid,
+            message: emailConfig.configured
                 ? 'Reminder scheduled successfully'
-                : 'Reminder saved, but email is not configured on the server yet'
+                : `Reminder saved, but email is not configured on the server yet. ${[
+                    emailConfig.missing.length ? `Missing: ${emailConfig.missing.join(', ')}` : null,
+                    emailConfig.invalid.length ? `Invalid: ${emailConfig.invalid.join('; ')}` : null
+                ].filter(Boolean).join(' ')}`
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+exports.getEmailStatus = async (req, res, next) => {
+    try {
+        const emailConfig = getEmailConfigStatus();
+
+        res.json({
+            emailConfigured: emailConfig.configured,
+            missingEmailConfig: emailConfig.missing,
+            invalidEmailConfig: emailConfig.invalid,
+            smtp: {
+                host: emailConfig.host,
+                port: emailConfig.port,
+                secure: emailConfig.secure,
+                fromConfigured: emailConfig.fromConfigured,
+                gmailDefaultsApplied: emailConfig.gmailDefaultsApplied
+            }
         });
     } catch (error) {
         next(error);

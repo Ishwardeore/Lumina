@@ -1,0 +1,117 @@
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:28:35"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:28:35"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:28:35"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:28:35"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:28:35"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","service":"resume-generator-api","timestamp":"2026-04-30 13:28:35"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:28:35"}
+{"duration":"257ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:30:15","url":"/api/auth/login"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:30:16","url":"/api/resumes"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:30:16","url":"/api/auth/board"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:30:17","url":"/api/auth/board"}
+{"duration":"34ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:30:30","url":"/api/auth/board"}
+{"duration":"35ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-04-30 13:31:19","url":"/api/reminders"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:31:20","url":"/api/auth/board"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:35:48"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:35:48"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:35:48"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:35:48"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:35:48"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:35:48"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:35:48"}
+{"duration":"22ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:38:23","url":"/api/auth/board"}
+{"duration":"22ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:38:34","url":"/api/auth/board"}
+{"duration":"62ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":500,"timestamp":"2026-04-30 13:39:09","url":"/api/resumes/import"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:39:09","url":"/api/auth/board"}
+{"duration":"28ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:39:09","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:39:09","url":"/api/auth/board"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-04-30 13:39:09","url":"/api/resumes"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:39:10","url":"/api/auth/board"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:39:14","url":"/api/auth/board"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:39:17","url":"/api/auth/board"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-04-30 13:40:23","url":"/api/reminders"}
+{"duration":"22ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:40:24","url":"/api/auth/board"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:41:20"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:41:20"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:41:20"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:41:20"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:41:20"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:41:20"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:41:20"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:42:19"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:42:19"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:42:19"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:42:19"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:42:19"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:42:19"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:42:19"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:44:30"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:44:30"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:44:30"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:44:30"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:44:30"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:44:30"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:44:30"}
+{"duration":"234ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:44:44","url":"/api/auth/login"}
+{"duration":"29ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-04-30 13:44:46","url":"/api/resumes"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:44:46","url":"/api/auth/board"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:44:47","url":"/api/auth/board"}
+{"duration":"33ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:44:52","url":"/api/auth/board"}
+{"duration":"44ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-04-30 13:45:24","url":"/api/reminders"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:45:25","url":"/api/auth/board"}
+{"duration":"6ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-04-30 13:47:04","url":"/api/resumes"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:48:37"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:48:37"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:48:37"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:48:37"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:48:37"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:48:37"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:48:37"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:48:42"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:48:42"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:48:42"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:48:42"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:48:42"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:48:42"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:48:42"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:48:45"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:48:45"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:48:45"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:48:45"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:48:45"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:48:45"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:48:45"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:48:51"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:48:51"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:48:51"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:48:51"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:48:51"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:48:51"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:48:51"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:49:07"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:49:07"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:49:07"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:49:07"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:49:07"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:49:07"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:49:07"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:49:24"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:49:24"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:49:24"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:49:24"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:49:24"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:49:24"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:49:24"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-04-30 13:50:20"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-04-30 13:50:20"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-04-30 13:50:20"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-04-30 13:50:20"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-04-30 13:50:20"}
+{"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER","SMTP_PASS"],"service":"resume-generator-api","timestamp":"2026-04-30 13:50:20"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-04-30 13:50:20"}
+{"duration":"49ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-04-30 13:50:34","url":"/api/resumes"}
+{"duration":"43ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:50:34","url":"/api/auth/board"}
+{"duration":"24ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:50:35","url":"/api/auth/board"}
+{"duration":"35ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:50:38","url":"/api/auth/board"}
+{"duration":"40ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-04-30 13:52:24","url":"/api/reminders"}
+{"duration":"27ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-04-30 13:52:25","url":"/api/auth/board"}

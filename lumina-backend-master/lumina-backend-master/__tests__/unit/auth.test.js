@@ -9,6 +9,7 @@ jest.mock('../../src/models/User', () => ({
 
 jest.mock('../../src/config/logger', () => ({
     info: jest.fn(),
+    warn: jest.fn(),
     error: jest.fn()
 }));
 
@@ -127,7 +128,7 @@ describe('Auth Controller', () => {
             await authController.login(req, res);
 
             expect(res.status).toHaveBeenCalledWith(401);
-            expect(res.json).toHaveBeenCalledWith({ message: 'Auth failed: Invalid password' });
+            expect(res.json).toHaveBeenCalledWith({ message: 'Auth failed: Invalid credentials' });
         });
 
         it('should return 401 for non-existent user', async () => {
@@ -141,7 +142,7 @@ describe('Auth Controller', () => {
             await authController.login(req, res);
 
             expect(res.status).toHaveBeenCalledWith(401);
-            expect(res.json).toHaveBeenCalledWith({ message: 'Auth failed: User not found' });
+            expect(res.json).toHaveBeenCalledWith({ message: 'Auth failed: Invalid credentials' });
         });
     });
 });

@@ -1,0 +1,232 @@
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 20:50:59"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 20:50:59"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 20:50:59"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 20:50:59"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 20:50:59"}
+{"invalid":[],"level":"warn","message":"Interview reminder scheduler is paused because SMTP email is not configured.","missing":["SMTP_HOST","SMTP_PORT","SMTP_USER or GMAIL_USER","SMTP_PASS or GMAIL_APP_PASSWORD"],"service":"resume-generator-api","timestamp":"2026-05-02 20:50:59"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 20:50:59"}
+{"duration":"261ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 20:52:22","url":"/api/auth/login"}
+{"duration":"31ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 20:52:24","url":"/api/resumes"}
+{"duration":"32ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 20:52:24","url":"/api/auth/board"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 20:52:25","url":"/api/auth/board"}
+{"duration":"28ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 20:52:29","url":"/api/auth/board"}
+{"duration":"37ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 20:53:18","url":"/api/reminders"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 20:53:19","url":"/api/auth/board"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 21:23:06"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 21:23:06"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 21:23:06"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 21:23:06"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 21:23:06"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 21:23:06"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"33a2dd31-6729-4e2d-a71a-430a977ba5ee","service":"resume-generator-api","timestamp":"2026-05-02 21:23:11"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"4cefd2bf-a3a0-4e96-8ba9-c0daee9e9d68","service":"resume-generator-api","timestamp":"2026-05-02 21:23:15"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"1bea2a58-6e8d-4326-a76e-b953d13bfca8","service":"resume-generator-api","timestamp":"2026-05-02 21:23:21"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"7cf2d2aa-fefd-4529-85c7-7f4185717964","service":"resume-generator-api","timestamp":"2026-05-02 21:23:26"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 21:26:33"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 21:26:33"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 21:26:33"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 21:26:33"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 21:26:33"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 21:26:33"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 21:27:55"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 21:27:55"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 21:27:55"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 21:27:55"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 21:27:55"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 21:27:55"}
+{"duration":"36ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:28:43","url":"/api/resumes"}
+{"duration":"40ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:28:43","url":"/api/auth/board"}
+{"duration":"25ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:28:44","url":"/api/auth/board"}
+{"duration":"217ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:28:49","url":"/api/auth/login"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:28:50","url":"/api/resumes"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:28:50","url":"/api/auth/board"}
+{"duration":"12ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:28:51","url":"/api/auth/board"}
+{"level":"info","message":"Resume generated with gemini-2.5-flash","service":"resume-generator-api","timestamp":"2026-05-02 21:30:49"}
+{"duration":"16587ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:30:49","url":"/api/resumes/generate"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:30:49","url":"/api/resumes/match-score"}
+{"duration":"219ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:33:33","url":"/api/auth/login"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:33:34","url":"/api/resumes"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:33:34","url":"/api/auth/board"}
+{"duration":"22ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:33:35","url":"/api/auth/board"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:33:40","url":"/api/resumes"}
+{"duration":"72ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:33:56","url":"/api/auth/board"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:34:00","url":"/api/resumes"}
+{"duration":"22ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:34:04","url":"/api/auth/board"}
+{"duration":"24ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:34:10","url":"/api/auth/board"}
+{"duration":"34ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:34:10","url":"/api/auth/board"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:34:10","url":"/api/resumes"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:34:11","url":"/api/auth/board"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 21:36:05"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 21:36:05"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 21:36:05"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 21:36:05"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 21:36:05"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 21:36:05"}
+{"duration":"50ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:36:15","url":"/api/resumes"}
+{"duration":"44ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:36:15","url":"/api/auth/board"}
+{"duration":"34ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:36:16","url":"/api/auth/board"}
+{"level":"info","message":"Resume generated with gemini-2.5-flash","service":"resume-generator-api","timestamp":"2026-05-02 21:36:45"}
+{"duration":"19171ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:36:45","url":"/api/resumes/generate"}
+{"duration":"44ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:36:45","url":"/api/resumes/match-score"}
+{"level":"info","message":"Resume generated with gemini-2.5-flash","service":"resume-generator-api","timestamp":"2026-05-02 21:37:21"}
+{"duration":"11862ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:37:21","url":"/api/resumes/generate"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:37:21","url":"/api/resumes/match-score"}
+{"duration":"76ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":500,"timestamp":"2026-05-02 21:38:13","url":"/api/resumes/import"}
+{"duration":"19ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:38:13","url":"/api/auth/board"}
+{"duration":"48ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:38:13","url":"/api/auth/board"}
+{"duration":"12ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:38:13","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:38:13","url":"/api/resumes"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:38:15","url":"/api/auth/board"}
+{"duration":"8ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:38:18","url":"/api/resumes"}
+{"duration":"37ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:38:24","url":"/api/auth/board"}
+{"duration":"38ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:38:28","url":"/api/auth/board"}
+{"duration":"41ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:38:56","url":"/api/reminders"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:39:30","url":"/api/auth/board"}
+{"duration":"27ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:39:56","url":"/api/reminders"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"08038bd0-576c-4d92-a80a-e6b3877e0a8b","service":"resume-generator-api","timestamp":"2026-05-02 21:40:09"}
+{"duration":"28ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:40:42","url":"/api/auth/board"}
+{"duration":"24ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:40:54","url":"/api/reminders"}
+{"duration":"35ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:41:26","url":"/api/auth/board"}
+{"duration":"5ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:42:25","url":"/api/resumes"}
+{"duration":"8ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:42:50","url":"/api/resumes"}
+{"duration":"103ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:42:58","url":"/api/auth/board"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:43:33","url":"/api/auth/board"}
+{"duration":"29ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:43:33","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:43:33","url":"/api/resumes"}
+{"duration":"25ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:43:33","url":"/api/auth/board"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:43:34","url":"/api/auth/board"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:43:39","url":"/api/resumes"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:43:45","url":"/api/resumes"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:43:45","url":"/api/auth/board"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:43:46","url":"/api/auth/board"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:43:54","url":"/api/auth/board"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:43:58","url":"/api/auth/board"}
+{"duration":"28ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:44:35","url":"/api/reminders"}
+{"duration":"29ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:44:36","url":"/api/auth/board"}
+{"duration":"211ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:45:09","url":"/api/auth/login"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:45:09","url":"/api/resumes"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:45:09","url":"/api/auth/board"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:45:10","url":"/api/auth/board"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 21:45:43"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 21:45:43"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 21:45:43"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 21:45:43"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 21:45:43"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 21:45:43"}
+{"duration":"65ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:46:01","url":"/api/auth/board"}
+{"duration":"21ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:46:12","url":"/api/resumes"}
+{"duration":"37ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:46:27","url":"/api/auth/board"}
+{"duration":"38ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:46:47","url":"/api/reminders"}
+{"duration":"37ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:47:29","url":"/api/auth/board"}
+{"duration":"31ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:47:29","url":"/api/auth/board"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:47:29","url":"/api/resumes"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:47:31","url":"/api/auth/board"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:47:36","url":"/api/resumes"}
+{"duration":"32ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:48:12","url":"/api/auth/board"}
+{"duration":"31ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:48:35","url":"/api/reminders"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"7a66c718-ddea-4026-9b3e-a27a40830b3c","service":"resume-generator-api","timestamp":"2026-05-02 21:48:47"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:51:09","url":"/api/auth/board"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:51:12","url":"/api/auth/board"}
+{"duration":"33ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:51:12","url":"/api/auth/board"}
+{"duration":"21ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:51:12","url":"/api/resumes"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:51:14","url":"/api/auth/board"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:51:37","url":"/api/resumes"}
+{"duration":"19ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:51:53","url":"/api/resumes"}
+{"duration":"18ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:51:53","url":"/api/auth/board"}
+{"duration":"12ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:51:54","url":"/api/auth/board"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:51:57","url":"/api/resumes"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:51:59","url":"/api/resumes"}
+{"duration":"24ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:51:59","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:00","url":"/api/auth/board"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:52:04","url":"/api/resumes"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:52:07","url":"/api/resumes"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:07","url":"/api/auth/board"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:08","url":"/api/auth/board"}
+{"duration":"10ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:28","url":"/api/auth/board"}
+{"duration":"34ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:28","url":"/api/auth/board"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:29","url":"/api/auth/board"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:52:29","url":"/api/resumes"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:30","url":"/api/auth/board"}
+{"duration":"8ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:52:32","url":"/api/resumes"}
+{"duration":"8ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:52:39","url":"/api/resumes"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:39","url":"/api/auth/board"}
+{"duration":"14ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:40","url":"/api/auth/board"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:42","url":"/api/auth/board"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:52:47","url":"/api/auth/board"}
+{"duration":"28ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:53:30","url":"/api/reminders"}
+{"duration":"23ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:53:31","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:53:37","url":"/api/auth/board"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"88902120-d5f1-4c3d-b4c6-64c4ff5699b9","service":"resume-generator-api","timestamp":"2026-05-02 21:53:49"}
+{"duration":"24ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:54:13","url":"/api/reminders"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:54:14","url":"/api/auth/board"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:54:24","url":"/api/auth/board"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:55:07","url":"/api/reminders"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:55:09","url":"/api/auth/board"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 21:58:49"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 21:58:49"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 21:58:49"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 21:58:49"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 21:58:49"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 21:58:49"}
+{"duration":"51ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:58:54","url":"/api/auth/board"}
+{"duration":"43ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 21:59:28","url":"/api/reminders"}
+{"duration":"27ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 21:59:29","url":"/api/auth/board"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 21:59:45","url":"/api/resumes"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:00:06","url":"/api/resumes"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:00:20","url":"/api/resumes"}
+{"duration":"25ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:00:20","url":"/api/auth/board"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:00:22","url":"/api/auth/board"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:00:51","url":"/api/auth/board"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:00:51","url":"/api/auth/board"}
+{"duration":"12ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:00:51","url":"/api/auth/board"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:00:51","url":"/api/resumes"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:00:52","url":"/api/auth/board"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"e50aec94-5274-41be-b96f-72e0e54f5152","service":"resume-generator-api","timestamp":"2026-05-02 22:00:55"}
+{"duration":"25ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:01:47","url":"/api/auth/board"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:01:49","url":"/api/auth/board"}
+{"duration":"29ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 22:02:37","url":"/api/reminders"}
+{"duration":"46ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:02:38","url":"/api/auth/board"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 22:05:36"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 22:05:36"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 22:05:36"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 22:05:36"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 22:05:36"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 22:05:36"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"b6f578df-80fd-46b7-a5e1-8d610b587879","service":"resume-generator-api","timestamp":"2026-05-02 22:05:40"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:05:40","url":"/api/resumes"}
+{"duration":"29ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:05:40","url":"/api/auth/board"}
+{"duration":"17ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:05:42","url":"/api/auth/board"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"5a1f1885-a1b2-4e3c-b89d-6251ddf81743","service":"resume-generator-api","timestamp":"2026-05-02 22:05:43"}
+{"duration":"11ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:05:45","url":"/api/resumes"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"c4f80093-0033-4b5d-ac68-c731c1161c4d","service":"resume-generator-api","timestamp":"2026-05-02 22:05:48"}
+{"duration":"32ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:05:51","url":"/api/auth/board"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"17f9f8e7-b9c0-4f6b-a38e-5548dcc8c9b8","service":"resume-generator-api","timestamp":"2026-05-02 22:05:52"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"d73b6567-200f-4726-b922-dabb6b1e93cd","service":"resume-generator-api","timestamp":"2026-05-02 22:05:56"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"39fd6d16-d69f-4015-9852-4d98ef92d323","service":"resume-generator-api","timestamp":"2026-05-02 22:06:01"}
+{"duration":"43ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":201,"timestamp":"2026-05-02 22:06:15","url":"/api/reminders"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:06:20","url":"/api/auth/board"}
+{"level":"info","message":"Interview reminder email sent","reminderId":"1bed8ffe-4b20-4e84-8aaf-bc5fec6e85f5","service":"resume-generator-api","timestamp":"2026-05-02 22:06:40"}
+{"duration":"27ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:10:53","url":"/api/auth/board"}
+{"level":"info","message":"🔧 CORS Configured for: http://localhost:5173, http://localhost:3000","service":"resume-generator-api","timestamp":"2026-05-02 22:11:16"}
+{"level":"info","message":"🚀 Server running on http://localhost:5002","service":"resume-generator-api","timestamp":"2026-05-02 22:11:16"}
+{"level":"info","message":"🔑 AI Service: Online","service":"resume-generator-api","timestamp":"2026-05-02 22:11:16"}
+{"level":"info","message":"📦 Connected to sqlite DB","service":"resume-generator-api","timestamp":"2026-05-02 22:11:16"}
+{"level":"info","message":"✅ Database synced successfully","service":"resume-generator-api","timestamp":"2026-05-02 22:11:16"}
+{"level":"info","message":"Interview reminder scheduler started","service":"resume-generator-api","timestamp":"2026-05-02 22:11:16"}
+{"duration":"26ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:11:25","url":"/api/resumes"}
+{"duration":"82ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:11:41","url":"/api/auth/board"}
+{"duration":"53ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:11:42","url":"/api/auth/board"}
+{"duration":"29ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:11:42","url":"/api/resumes"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:11:43","url":"/api/auth/board"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:12:12","url":"/api/auth/board"}
+{"duration":"45ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:12:12","url":"/api/auth/board"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:12:12","url":"/api/auth/board"}
+{"duration":"15ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:12:12","url":"/api/resumes"}
+{"duration":"13ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:12:14","url":"/api/auth/board"}
+{"duration":"9ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:12:19","url":"/api/resumes"}
+{"duration":"34ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:12:24","url":"/api/auth/board"}
+{"duration":"35ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:12:46","url":"/api/auth/board"}
+{"duration":"30ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:12:59","url":"/api/auth/board"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":304,"timestamp":"2026-05-02 22:13:13","url":"/api/resumes"}
+{"duration":"20ms","ip":"::1","level":"info","message":"HTTP Request","method":"GET","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:13:13","url":"/api/auth/board"}
+{"duration":"16ms","ip":"::1","level":"info","message":"HTTP Request","method":"POST","service":"resume-generator-api","status":200,"timestamp":"2026-05-02 22:13:14","url":"/api/auth/board"}
