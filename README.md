@@ -127,8 +127,4 @@ npm run preview
 | `/api/reminders` | Interview reminder scheduling and email status |
 | `/api/admin` | Protected admin dashboard endpoints |
 
-## Notes
 
-- Do not commit real `.env` values.
-- Local backend data is stored in SQLite unless `DATABASE_URL` is provided.
-- Without `GOOGLE_API_KEY`, the backend can start but AI behavior may run in mock/configuration-limited mode.
